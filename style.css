@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+header {
+  padding: 2vmin 1vmin 2vmin 1vmin;
+}
+main {
+  padding: 2vmin;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  margin-bottom: 2vmin;
+}
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: aquamarine;
+  text-align: center;
+}
+h1 {
+  margin-top: 0;
+}
+/*
+header button,
+h1 {
+  text-align: center;
+}
+*/
+
+#btn-get-quote {
+  background-color: blue;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.8vmin;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#container-quote-and-author {
+  max-width: 600px;
+}
+#container-author {
+  color: #ccc;
+  text-shadow: 1px 1px 0 #000;
+}
+#container-quote {
+  font-weight: 700;
+  font-size: 1.5rem;
+  position: relative;
+}
+#container-quote::before,
+#container-quote #end-of-quote::before {
+  font-weight: 300;
+}
+#container-quote::before {
+  content: "\275E";
+  position: absolute;
+  left: -20px;
+  top: -12px;
+  font-size: 2.3rem;
+}
+#container-quote #end-of-quote {
+  position: relative;
+}
+#container-quote #end-of-quote::before {
+  content: "\275D";
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  font-size: 1.7rem;
+}

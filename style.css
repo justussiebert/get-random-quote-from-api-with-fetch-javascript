@@ -36,7 +36,7 @@ ul {
 }
 
 header {
-  background-color: aquamarine;
+  background-color: rgb(123, 156, 145);
   text-align: center;
 }
 h1 {
@@ -89,6 +89,6 @@ h1 {
   content: "\275D";
   position: absolute;
   left: 0;
-  bottom: 8px;
+  bottom: -10px;
   font-size: 1.7rem;
 }

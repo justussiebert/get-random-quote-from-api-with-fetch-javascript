@@ -63,7 +63,7 @@ h1 {
   max-width: 600px;
 }
 #container-author {
-  color: #ccc;
+  color: rgb(161, 153, 153);
   text-shadow: 1px 1px 0 #000;
 }
 #container-quote {
